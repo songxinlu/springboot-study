@@ -35,6 +35,7 @@ public class CodeAutoGenerator {
      * @param args
      */
     public static void main(String[] args) {
+
         GeneratorUtil.create(username, password, url, TABLES, ENTITY_IGNORE_PREFIX);
     }
 

@@ -1,0 +1,7 @@
+server:
+  port: 18889
+spring:
+  application:
+    name: mybatis-study
+  profiles:
+    active: local

@@ -19,6 +19,7 @@
     </properties>
     <modules>
         <module>mybatis</module>
+        <module>springtask</module>
     </modules>
     <dependencies>
         <!--SpringBoot通用依赖模块-->

@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: http://101.43.37.173:9300
+      repositories:
+        enabled: true
+
+swagger.title: elasticsearch测试
+swagger.des: elasticsearch测试
+swagger.version: 0.0.1-SNAPSHOT
+swagger.show: true

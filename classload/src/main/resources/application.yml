@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+
+
+swagger.title: 动态加载服务
+swagger.des: 动态加载服务
+swagger.version: 0.0.1-SNAPSHOT
+swagger.show: true

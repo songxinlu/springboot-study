@@ -48,7 +48,7 @@ public class BaseSwaggerConfig {
                 .paths(PathSelectors.any())
                 .build();
         if (swaggerProperties.isEnableSecurity()) {
-            docket.securitySchemes(securitySchemes()).securityContexts(securityContexts());
+//            docket.securitySchemes(securitySchemes()).securityContexts(securityContexts());
         }
         return docket;
     }
@@ -96,10 +96,10 @@ public class BaseSwaggerConfig {
 
     public SwaggerProperties swaggerProperties() {
         return SwaggerProperties.builder()
-                .apiBasePackage("com.lantone")
+                .apiBasePackage("com.example.demo")
                 .title(swagger_title)
                 .description("<div style='font-size:14px;color:red;'>" + swagger_des + "--RESTful APIs</div>")
-                .contactName("lantone")
+                .contactName("songxl")
                 .version(swagger_version)
                 .enableSecurity(true)
                 .build();

@@ -1,0 +1,20 @@
+server:
+  port: 9033
+
+
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /songxl # 虚拟host
+
+
+
+#发布/订阅通讯协议
+rabbitmq:
+  mqtt:
+    url: tcp://127.0.0.1:1883
+    front-url: ws://127.0.0.1:15675/ws
+    defaultTopic: mqttTopic

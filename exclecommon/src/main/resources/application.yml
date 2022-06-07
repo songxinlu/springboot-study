@@ -1,0 +1,8 @@
+server:
+  port: 8089
+
+
+swagger.title: excel管理服务
+swagger.des: excel管理服务
+swagger.version: 0.0.1-SNAPSHOT
+swagger.show: true
